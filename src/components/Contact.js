@@ -2,9 +2,21 @@ export default function Contact () {
 
   return (
     <>
-      <h3>Contact</h3>
-    
-    
+      <form>
+        <input
+          placeholder="name"
+          type="text"
+        />
+        <input
+          placeholder="email"
+          type="text"
+        />
+        <input
+          placeholder="message"
+          type="text"
+        />
+        <button>Submit</button>
+      </form>
     </>
 
   );
