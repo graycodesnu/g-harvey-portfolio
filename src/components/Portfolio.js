@@ -6,13 +6,15 @@ import { CardActionArea, CardActions } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { IconButton } from '@mui/material';
 import InsertLinkTwoToneIcon from '@mui/icons-material/InsertLinkTwoTone';
+import { Box } from '../styles/PortfolioStyles';
+
 
 export default function Portfolio () {
 
   return (
       <>
       <h2>Portfolio</h2>
-      <div>
+      <Box>
 {/* *********** goodWeeds *********** */}
         <div>
         <Card sx={{ maxWidth: 345, maxHeight: 300 }}>
@@ -163,7 +165,7 @@ export default function Portfolio () {
           </CardActions>
           </Card>
       </div>
-    </div>
+    </Box>
     </>
   );
 }
