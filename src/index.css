@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.aboutMeDiv {
+  border: solid 1px black;
+  height: 800px;
+} 
+
+.aboutMeHeader {
+  display: block;
+  margin-left: 20%;
+  padding-top: 100px;
+
+}
+
+.aboutMeP p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  margin-left: 30%;
+  padding-top: 25px;
+}

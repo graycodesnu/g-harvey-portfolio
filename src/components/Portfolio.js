@@ -17,7 +17,7 @@ export default function Portfolio () {
       <Box>
 {/* *********** goodWeeds *********** */}
         <div>
-        <Card sx={{ maxWidth: 345, maxHeight: 300 }}>
+        <Card sx={{ maxWidth: 400 }}>
         <CardActionArea href="https://goodweeds.herokuapp.com/">
           <CardMedia
             component="img"
@@ -43,7 +43,7 @@ export default function Portfolio () {
 
 {/* *********** INtertain *********** */}
         <div>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 400 }}>
         <CardActionArea href="https://nw-bootcamp-team1.github.io/Night-In/home-page/index">
           <CardMedia
             component="img"
@@ -68,7 +68,7 @@ export default function Portfolio () {
 
 {/* *********** Workday Scheduler *********** */}
       <div>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 400 }}>
         <CardActionArea href="https://graycodesnu.github.io/work-day-scheduler/">
           <CardMedia
             component="img"
@@ -93,7 +93,7 @@ export default function Portfolio () {
 
 {/* *********** Weather Dashboard *********** */}
       <div>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 400 }}>
         <CardActionArea href="https://graycodesnu.github.io/weather-dashboard-week06/">
           <CardMedia
             component="img"
@@ -118,7 +118,7 @@ export default function Portfolio () {
 
 {/* *********** Password Generator *********** */}
       <div>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 400 }}>
         <CardActionArea href="https://graycodesnu.github.io/password_generator/">
           <CardMedia
             component="img"
@@ -143,7 +143,7 @@ export default function Portfolio () {
 
 {/* *********** Express Notes *********** */}
       <div>
-          <Card sx={{ maxWidth: 345 }}>
+          <Card sx={{ maxWidth: 400 }}>
           <CardActionArea href="https://heroku-express-notes.herokuapp.com/">
             <CardMedia
               component="img"
