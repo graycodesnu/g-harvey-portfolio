@@ -6,18 +6,20 @@ import AvImg from "../assets/avatarTwo.jpeg";
 export default function AboutMe() {
   return (
     <>
-      <Stack>
+      <div class="av">
+      <Stack >
         <Avatar 
         alt="Grayson Harvey" 
         src={AvImg}
-        sx={{ width: 150, height: 150 }}
+        sx={{ width: 200, height: 200 }}
         />
       </Stack>
+      </div>
 
       <div className="aboutMeDiv">
         {/* About Me Header */}
         <div className="aboutMeHeader">
-          <h3>Hi, I'm Grayson.</h3>
+          <h1>Hi, I'm Grayson.</h1>
         </div>
 
         {/* About Me Paragraph */}

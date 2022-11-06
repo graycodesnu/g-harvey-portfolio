@@ -31,10 +31,10 @@ export default function Portfolio () {
           <Typography variant='h5'>
             goodWeeds
           </Typography>
-          <IconButton href="https://goodweeds.herokuapp.com/">
+          <IconButton href="https://goodweeds.herokuapp.com/" color='secondary'>
             <InsertLinkTwoToneIcon />
           </IconButton>
-          <IconButton href="https://github.com/The-Brain-Cell-Collective/goodWeeds" color='primary'>
+          <IconButton href="https://github.com/The-Brain-Cell-Collective/goodWeeds" color='secondary'>
           <GitHubIcon />
           </IconButton>
         </CardActions>
@@ -56,10 +56,10 @@ export default function Portfolio () {
         <Typography variant='h5'>
             INtertain
           </Typography>
-          <IconButton href="https://nw-bootcamp-team1.github.io/Night-In/home-page/index">
+          <IconButton href="https://nw-bootcamp-team1.github.io/Night-In/home-page/index" color='secondary'>
             <InsertLinkTwoToneIcon />
           </IconButton>
-          <IconButton href="https://github.com/NW-Bootcamp-Team1/Night-In" color='primary'>
+          <IconButton href="https://github.com/NW-Bootcamp-Team1/Night-In" color='secondary'>
           <GitHubIcon />
           </IconButton>
         </CardActions>
@@ -81,10 +81,10 @@ export default function Portfolio () {
           <Typography variant='h5'>
             Workday Scheduler
           </Typography>
-          <IconButton href="https://graycodesnu.github.io/work-day-scheduler/">
+          <IconButton href="https://graycodesnu.github.io/work-day-scheduler/" color='secondary'>
             <InsertLinkTwoToneIcon />
           </IconButton>
-          <IconButton href="https://github.com/graycodesnu/work-day-scheduler" color='primary'>
+          <IconButton href="https://github.com/graycodesnu/work-day-scheduler" color='secondary'>
           <GitHubIcon />
           </IconButton>
         </CardActions>
@@ -106,10 +106,10 @@ export default function Portfolio () {
           <Typography variant='h5'>
             Weather Dashboard
           </Typography>
-          <IconButton href="https://graycodesnu.github.io/weather-dashboard-week06/">
+          <IconButton href="https://graycodesnu.github.io/weather-dashboard-week06/" color='secondary'>
             <InsertLinkTwoToneIcon />
           </IconButton>
-          <IconButton href="https://github.com/graycodesnu/weather-dashboard-week06" color='primary'>
+          <IconButton href="https://github.com/graycodesnu/weather-dashboard-week06" color='secondary'>
           <GitHubIcon />
           </IconButton>
         </CardActions>
@@ -131,10 +131,10 @@ export default function Portfolio () {
         <Typography variant='h5'>
             Password Generator
           </Typography>
-          <IconButton href="https://graycodesnu.github.io/password_generator/">
+          <IconButton href="https://graycodesnu.github.io/password_generator/" color='secondary'>
             <InsertLinkTwoToneIcon />
           </IconButton>
-          <IconButton href="https://github.com/graycodesnu/password_generator" color='primary'>
+          <IconButton href="https://github.com/graycodesnu/password_generator" color='secondary'>
           <GitHubIcon />
           </IconButton>
         </CardActions>
@@ -156,10 +156,10 @@ export default function Portfolio () {
           <Typography variant='h5'>
               Express Notes
             </Typography>
-            <IconButton href="https://heroku-express-notes.herokuapp.com/">
+            <IconButton href="https://heroku-express-notes.herokuapp.com/" color='secondary'>
               <InsertLinkTwoToneIcon />
             </IconButton>
-            <IconButton href="https://github.com/graycodesnu/express-notes" color='primary'>
+            <IconButton href="https://github.com/graycodesnu/express-notes" color='secondary'>
             <GitHubIcon />
             </IconButton>
           </CardActions>

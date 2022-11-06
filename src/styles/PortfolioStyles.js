@@ -2,7 +2,7 @@ import styled from 'styled-components';
    
 export const Box = styled.div`
   padding: 2rem;
-  height: 4rem;
+  // height: 600px;
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
