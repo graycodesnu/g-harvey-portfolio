@@ -12,24 +12,6 @@ import Resume from "./Resume";
 export default function Header() {
   return (
     <>
-      {/* <Box sx={{ flexGrow: 1 }}>
-          <AppBar position="static">
-            <Toolbar>
-              <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
-                Grayson Harvey
-              </Typography>
-                <Button color="inherit">About Me</Button>
-                <Button color="inherit">Portfolio</Button>
-                <Button color="inherit">Contact</Button>
-                <Button color="inherit">Resume</Button>
-            </Toolbar>
-          </AppBar>
-        </Box> */}
-
-
-
-
-
       {/* browser router */}
       <BrowserRouter>
         <Box sx={{ flexGrow: 1 }}>

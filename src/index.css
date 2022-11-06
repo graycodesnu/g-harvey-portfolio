@@ -13,7 +13,6 @@ code {
 }
 
 .aboutMeDiv {
-  border: solid 1px black;
   height: 800px;
 } 
 
@@ -32,3 +31,13 @@ code {
   margin-left: 30%;
   padding-top: 25px;
 }
+
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: aquamarine;
+  text-align: center;
+  padding-top: 1px;
+    padding-bottom: 2px;
+}
+
