@@ -14,19 +14,11 @@ code {
 
 /* NAV */
 .nav {
-  background-color: #0F0F0F;
+  background-color: #0f0f0f;
   color: #ffffff;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
-.navBtn {
-  background-color: #39796b;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-
 
 /* ABOUT ME */
 .av {
@@ -56,11 +48,27 @@ code {
   padding-top: 25px;
 }
 
+/* PORTFOLIO */
+
+.portfolioHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.portfolioCardLabel {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /* FOOTER */
 footer {
   bottom: 0;
   width: 100%;
-  background-color: #0F0F0F;
+  background-color: #0f0f0f;
   color: white;
   text-align: center;
   padding-top: 1px;
