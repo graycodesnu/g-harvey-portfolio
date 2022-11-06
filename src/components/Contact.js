@@ -4,40 +4,8 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 
 export default function Contact() {
-  const [myForm, setMyForm] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
 
-  const handleForm = (event) => {
-    console.log(event.target.value);
-    setMyForm(event.target.value);
-  };
-
-  //! Email validation
-  const [message, setMessage] = useState("");
-  const [error, setError] = useState(null);
-
-  function isValidEmail(email) {
-    return /\S+@\S+\.\S+/.test(email);
-  }
-
-  const handleChange = (event) => {
-    if (!isValidEmail(event.target.value)) {
-      setError("Please enter a valid email address.");
-    } else {
-      setError(null);
-    }
-
-    setMessage(event.target.value);
-  };
-
-  //! Submit
-  const handleFormSubmit = (event) => {
-    event.preventDefault();
-    setMyForm("");
-  };
+  // TODO: Define use state for change and submit 
 
   //! Pointer leave
   const [pointer, pointerSetError] = useState("");
@@ -50,6 +18,31 @@ export default function Contact() {
     }
   }
 
+  //! Email validation
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState(null);
+
+  function isValidEmail(email) {
+    return /\S+@\S+\.\S+/.test(email);
+  }
+
+  const handleEmailChange = (event) => {
+    if (!isValidEmail(event.target.value)) {
+      setError("Please enter a valid email address.");
+    } else {
+      setError(null);
+    }
+
+    setMessage(event.target.value);
+  };
+
+  // TODO: Handle input
+
+
+
+  // TODO: Submit
+
+  //! ************** RETURN **************
   return (
     <>
       <div>
@@ -77,7 +70,7 @@ export default function Contact() {
                 label="Email"
                 variant="standard"
                 value={message}
-                onChange={handleChange}
+                onChange={handleEmailChange}
                 helperText={error && <alert>{error}</alert>}
                 onPointerLeave={pointerLeave}
               />
@@ -114,7 +107,7 @@ export default function Contact() {
 //   id="message"
 //   name="message"
 //   value={message}
-//   onChange={handleChange}
+//   onChange={handleEmailChange}
 // />
 // <input placeholder="message" type="text" />
 // <button type="submit">Submit</button>
