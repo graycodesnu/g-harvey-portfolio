@@ -64,6 +64,29 @@ code {
   align-items: center;
 }
 
+/* CONTACT */
+
+
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#notifyToast {
+  border: 1px solid #3a9ea5 !important;
+  border-radius: 50px !important;
+  background: #f0f9fa !important;
+  width: 200px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
+
 /* FOOTER */
 footer {
   bottom: 0;
