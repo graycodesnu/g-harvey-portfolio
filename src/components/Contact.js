@@ -2,7 +2,6 @@ import { useState } from "react";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-
 import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from "react-toastify";
 import emailjs from "emailjs-com";
@@ -94,7 +93,10 @@ export default function Contact() {
   //! ************** RETURN **************
   return (
     <>
-      <div>
+      <div >
+        <ToastContainer closeButton={false} />
+      </div>
+      <div class="formBox">
         <Box
           component="form"
           sx={{
@@ -104,9 +106,13 @@ export default function Contact() {
           autoComplete="off"
           onSubmit={handleSubmit(onSubmit)}
         >
-          <div>
-            <div>
-              <div>
+          <div class="innerFormBox">
+            <h2>Send me a message!</h2>
+            <div class="inputEls">
+              <div class="singleInputEl">
+                {errors.name && (
+                  <span className="errorMessage">{errors.name.message}</span>
+                )}
                 <TextField
                   required
                   id="standard-required"
@@ -117,15 +123,17 @@ export default function Contact() {
                   {...register("name", {
                     required: {
                       value: true,
-                      message: "Please enter your name",
+                      message: "Please enter your name.",
                     },
                   })}
                 />
-                {errors.name && (
-                  <span className="errorMessage">{errors.name.message}</span>
-                )}
               </div>
-              <div>
+              <div class="singleInputEl">
+                {errors.email && (
+                  <span className="errorMessage">
+                    Please enter a valid email address.
+                  </span>
+                )}
                 <TextField
                   required
                   id="standard-required"
@@ -138,13 +146,11 @@ export default function Contact() {
                   type="email"
                   name="email"
                 />
-                {errors.email && (
-                  <span className="errorMessage">
-                    Please enter a valid email address
-                  </span>
-                )}
               </div>
-              <div>
+              <div class="singleInputEl">
+                {errors.message && (
+                  <span className="errorMessage">Please enter a message.</span>
+                )}
                 <TextField
                   id="outlined-multiline-static"
                   label="Message"
@@ -157,12 +163,9 @@ export default function Contact() {
                     required: true,
                   })}
                 />
-                {errors.message && (
-                  <span className="errorMessage">Please enter a message</span>
-                )}
               </div>
             </div>
-            <div>
+            <div class="alertDiv">
               <alert>
                 {pointer && <alert style={{ color: "red" }}>{pointer}</alert>}
               </alert>
@@ -176,9 +179,6 @@ export default function Contact() {
               >
                 Submit
               </Button>
-              <div>
-                <ToastContainer closeButton={false}/>
-              </div>
             </div>
           </div>
         </Box>
@@ -186,17 +186,3 @@ export default function Contact() {
     </>
   );
 }
-
-// <input placeholder="name" type="text" />
-// <input
-//   placeholder="email"
-//   id="message"
-//   name="message"
-//   value={message}
-//   onChange={handleEmailChange}
-// />
-// <input placeholder="message" type="text" />
-// <button type="submit">Submit</button>
-// </form>
-
-// {error && <alert>{error}</alert>}
