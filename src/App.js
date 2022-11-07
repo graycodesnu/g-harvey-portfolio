@@ -1,4 +1,3 @@
-import "./App.css";
 import "./index.css";
 import Header from "./components/Header";
 import GitHubIcon from "@mui/icons-material/GitHub";

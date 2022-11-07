@@ -24,14 +24,8 @@ export default function AboutMe() {
 
         {/* About Me Paragraph */}
         <div class="aboutMeP">
-          <p>
-            Adipisicing anim aliqua est ex Lorem labore veniam dolor ullamco
-            aute ut qui. Incididunt aliquip exercitation pariatur minim
-            reprehenderit ullamco esse. Officia deserunt elit do Lorem nisi
-            cillum exercitation excepteur minim nisi quis. Dolor quis ex nisi
-            qui. Sunt minim adipisicing labore ipsum veniam. Laborum anim
-            incididunt elit deserunt magna aute nulla sint enim.
-          </p>
+          <p>I am a full-stack engineer with strong skills in JavaScript, MongoDB, mySQL, and React.js. I recently earned a certificate in full-stack development from Northwestern University, complementing my degrees in Psychology and International Studies. 
+</p>
         </div>
       </div>
     </>
