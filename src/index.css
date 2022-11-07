@@ -92,7 +92,7 @@ code {
 }
 
 .inputEls {
-  padding: 10px
+  padding: 10px;
 }
 
 .singleInputEl {
@@ -114,8 +114,8 @@ code {
 
 #notifyToast {
   /* border-radius: 6px !important; */
-  background: #4B8F8C !important;
-  color: #ffffff;  
+  background: #4b8f8c !important;
+  color: #ffffff;
   /* opacity: 0.7; */
   justify-content: center;
   display: flex;
@@ -128,7 +128,36 @@ code {
 
 /* RESUME */
 .resumeBox {
+  border: #0f0f0f solid 2px;
+  height: 600px;
+}
 
+.cardBox {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+.skillCard {
+  border: #bcabae solid 1px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 4px;
+  width: 225px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: ;
+}
+
+.skillList {
+  padding: 0;
+}
+
+li {
+  position: relative;
+  list-style: none;
 }
 
 .resumeHeader {
@@ -139,6 +168,9 @@ code {
 
 .resumeButton {
   width: 200px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
 }
 
 /* FOOTER */

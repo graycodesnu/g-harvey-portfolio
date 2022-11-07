@@ -3,9 +3,13 @@ import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import { proficiencies } from "../data/resumeData";
 
+import Box from "@mui/material/Box";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import Typography from "@mui/material/Typography";
+
 export default function Resume() {
-  
-  // Languages 
+  // Languages
   const languagesList = proficiencies.languages.length ? (
     proficiencies.languages.map((languages, index) => (
       <li key={index}>{languages}</li>
@@ -35,54 +39,75 @@ export default function Resume() {
   return (
     <>
       <div class="resumeBox">
-        <h1 class="resumeHeader">Resume</h1>
+        <h1 class="resumeHeader">Proficiencies</h1>
         <div>
-          <h3>Proficiencies</h3>
-          <div>
-            <h4>Languages</h4>
-            <ul>
-              <li>{languagesList}</li>
-            </ul>
+          <div class="resumeButton">
+            <Stack>
+              <Button
+                variant="outlined"
+                color="secondary"
+                href="https://drive.google.com/file/d/1Xg2wn-5dnwyDPpq3cincwQ3QJPYB7RJq/view?usp=sharing"
+              >
+                Download Resume
+              </Button>
+            </Stack>
           </div>
+          <Box>
+            <div class="cardBox">
+              <div class="skillCard">
+                <Card elevation={0}>
+                  <CardContent>
+                    <Typography variant="h5" component="div">
+                      Languages
+                    </Typography>
+                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                      <div>
+                        <ul class="skillList">
+                          <li>{languagesList}</li>
+                        </ul>
+                      </div>
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </div>
 
-          <div>
-            <h4>Frontend</h4>
-            <ul>
-              <li>{frontendList}</li>
-            </ul>
-          </div>
+              <div class="skillCard">
+                <Card elevation={0}>
+                  <CardContent>
+                    <Typography variant="h5" component="div">
+                      Frontend
+                    </Typography>
+                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                      <div>
+                        <ul class="skillList">
+                          <li>{frontendList}</li>
+                        </ul>
+                      </div>
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </div>
 
-          <div>
-            <h4>Backend</h4>
-            <ul>
-              <li>{backendList}</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="resumeButton">
-          <Stack>
-            <Button
-              variant="outlined"
-              color="secondary"
-              href="https://drive.google.com/file/d/1Xg2wn-5dnwyDPpq3cincwQ3QJPYB7RJq/view?usp=sharing"
-            >
-              Download Resume
-            </Button>
-          </Stack>
+              <div class="skillCard">
+                <Card elevation={0}>
+                  <CardContent>
+                    <Typography variant="h5" component="div">
+                      Backend
+                    </Typography>
+                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                      <div>
+                        <ul class="skillList">
+                          <li>{backendList}</li>
+                        </ul>
+                      </div>
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+          </Box>
         </div>
       </div>
     </>
   );
-}
-
-{
-  /* <div>
-<h3>Proficiencies</h3>
-<ul>
-  <li>JavaScript</li>
-  <li>React</li>
-  <li></li>
-</ul>
-</div> */
 }

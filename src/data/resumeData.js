@@ -1,5 +1,5 @@
 const languages = ["JavaScript", "CSS", "HTML"]
-const frontend = ["ReactJS", "Material UI", "JQuery", "BootStrap"]
+const frontend = ["ReactJS", "Material UI", "JQuery", "Bootstrap"]
 const backend = ["MySQL2", "ExpressJS", "NodeJS", "MongoDB", "Mongoose"]
 
 export const proficiencies =
