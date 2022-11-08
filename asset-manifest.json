@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.3be7a353.css",
+    "main.js": "/react-gh-pages/static/js/main.fafd4b9c.js",
+    "static/js/787.7235e083.chunk.js": "/react-gh-pages/static/js/787.7235e083.chunk.js",
+    "static/media/avatarTwo.jpeg": "/react-gh-pages/static/media/avatarTwo.36f787fe6002410e7e0a.jpeg",
+    "static/media/goodWeeds.png": "/react-gh-pages/static/media/goodWeeds.44534cbbd95f5b177de4.png",
+    "static/media/weather-dash.png": "/react-gh-pages/static/media/weather-dash.03386ea77197f27708e1.png",
+    "static/media/expressnotes.png": "/react-gh-pages/static/media/expressnotes.fb561eaf6a4a1c02ec6a.png",
+    "static/media/password-gen.png": "/react-gh-pages/static/media/password-gen.abb10b97f93982fbbbb3.png",
+    "static/media/INtertain.png": "/react-gh-pages/static/media/INtertain.43a6ed83bc82134b5bd2.png",
+    "static/media/workday-scheduler.png": "/react-gh-pages/static/media/workday-scheduler.ee2772001eb5faa11835.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.3be7a353.css.map": "/react-gh-pages/static/css/main.3be7a353.css.map",
+    "main.fafd4b9c.js.map": "/react-gh-pages/static/js/main.fafd4b9c.js.map",
+    "787.7235e083.chunk.js.map": "/react-gh-pages/static/js/787.7235e083.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3be7a353.css",
+    "static/js/main.fafd4b9c.js"
+  ]
+}
