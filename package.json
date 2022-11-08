@@ -1,7 +1,7 @@
 {
   "name": "g-harvey-portfolio",
   "version": "0.1.0",
-  "homepage": "https://graycodesnu.github.io/react-gh-pages/",
+  "homepage": "https://graycodesnu.github.io/g-harvey-portfolio/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
