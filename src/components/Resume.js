@@ -39,6 +39,7 @@ export default function Resume() {
                 variant="outlined"
                 color="secondary"
                 href="https://drive.google.com/file/d/1Xg2wn-5dnwyDPpq3cincwQ3QJPYB7RJq/view?usp=sharing"
+                target="_blank"
               >
                 Download Resume
               </Button>
