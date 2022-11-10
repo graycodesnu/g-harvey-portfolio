@@ -6,8 +6,6 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import { IconButton } from "@mui/material";
 
 function App() {
-
-
   return (
     <div className="App">
       <Header />
@@ -15,22 +13,27 @@ function App() {
       <footer>
         <h3>Find Me On These Platforms</h3>
 
-            <IconButton color="secondary" href="https://github.com/graycodesnu/">
-              <GitHubIcon fontSize="large" />
-            </IconButton>
-            <IconButton
-              color="secondary"
-              href="https://www.linkedin.com/in/graysonharvey/"
-            >
-              <LinkedInIcon fontSize="large" />
-            </IconButton>
-            <IconButton
-              color="secondary"
-              href="https://twitter.com/GraysonJHarvey"
-            >
-              <TwitterIcon fontSize="large" />
-            </IconButton>
-
+        <IconButton
+          color="secondary"
+          href="https://github.com/graycodesnu/"
+          target="_blank"
+        >
+          <GitHubIcon fontSize="large" />
+        </IconButton>
+        <IconButton
+          color="secondary"
+          href="https://www.linkedin.com/in/graysonharvey/"
+          target="_blank"
+        >
+          <LinkedInIcon fontSize="large" />
+        </IconButton>
+        <IconButton
+          color="secondary"
+          href="https://twitter.com/GraysonJHarvey"
+          target="_blank"
+        >
+          <TwitterIcon fontSize="large" />
+        </IconButton>
       </footer>
     </div>
   );

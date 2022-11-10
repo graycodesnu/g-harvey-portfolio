@@ -3,10 +3,10 @@
 ## Introduction
 This project is a result of our bootcamp's week 20 homework assignment. Students were expected to create a React JS portfolio. The project can be found [here](https://graycodesnu.github.io/g-harvey-portfolio/).
 
-![screenshot](./src/assets/aboutScreenshot.png) 
+![screenshot](./src/assets/aboutMeScreenshot.png) 
 ![screenshot](./src/assets/portfolioScreenshot.png) 
 ![screenshot](./src/assets/contactScreenshot.png) 
-![screenshot](./src/assets/resumeScreenshot.png) 
+![screenshot](./src/assets/resScreenshot.png) 
 
 ## Goals 
 The goal of this assignment was to create a React JS portfolio meeting the below criteria:
