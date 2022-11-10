@@ -21,6 +21,6 @@ The goal of this assignment was to create a React JS portfolio meeting the below
 ## Results 
 I loved creating this portfolio, as I have really come to enjoy working with React. It was a ton of fun to bring all of the things we've learned together to create a functional site. Working with Material UI presented a challenge and steep learning curve, but I'm glad I took the time to research and learn how to implement it. The clean and polished look that the implementation of Material UI resulted in was well worth the hours of research! 
 
-Finally, it was very difficult to get the app to deploy, but I'm grateful to my TAs and a few classmates who worked with me to figure it out during office hours. 
+Finally, it was very difficult to get the app to deploy, but I'm grateful to my TAs and a few classmates who worked with me to figure it out during office hours. I am still not able to get my most recent changes deployed, but what I have is sufficient for now. I plan to troubleshoot more down the road.
 
 Credit to the authors associated with the linked articles for allowing me to put the finishing touches on the [email validation](https://bobbyhadz.com/blog/react-check-if-email-is-valid#:~:text=To%20validate%20an%20email%20in,is%20valid%20and%20false%20otherwise) and [contact form](https://medium.com/weekly-webtips/simple-react-contact-form-without-back-end-9fa06eff52d9) elements.
