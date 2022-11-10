@@ -27,7 +27,7 @@ export default function Header() {
                   {/* links */}
 
                   <Stack direction="row" spacing={2}>
-                    <Link to="" style={{ textDecoration: "none" }}>
+                    <Link to="g-harvey-portfolio" style={{ textDecoration: "none" }}>
                       <Button variant="contained" color="secondary">
                         About Me
                       </Button>
@@ -48,7 +48,7 @@ export default function Header() {
           </Box>
           {/* routes */}
           <Routes>
-            <Route path="" element={<AboutMe />} />
+            <Route path="g-harvey-portfolio" element={<AboutMe />} />
             <Route path="portfolio" element={<Portfolio />} />
             <Route path="contact" element={<Contact />} />
             <Route path="resume" element={<Resume />} />

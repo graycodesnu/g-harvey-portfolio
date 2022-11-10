@@ -9,14 +9,6 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 
 export default function Resume() {
-  // Languages
-  const languagesList = proficiencies.languages.length ? (
-    proficiencies.languages.map((languages, index) => (
-      <li key={index}>{languages}</li>
-    ))
-  ) : (
-    <p>No Proficiencies</p>
-  );
 
   // Frontend
   const frontendList = proficiencies.frontend.length ? (
@@ -58,24 +50,7 @@ export default function Resume() {
                 <Card elevation={0}>
                   <CardContent>
                     <Typography variant="h5" component="div">
-                      Languages
-                    </Typography>
-                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                      <div>
-                        <ul class="skillList">
-                          <li>{languagesList}</li>
-                        </ul>
-                      </div>
-                    </Typography>
-                  </CardContent>
-                </Card>
-              </div>
-
-              <div class="skillCard">
-                <Card elevation={0}>
-                  <CardContent>
-                    <Typography variant="h5" component="div">
-                      Frontend
+                      Front-End
                     </Typography>
                     <Typography sx={{ mb: 1.5 }} color="text.secondary">
                       <div>
@@ -92,7 +67,7 @@ export default function Resume() {
                 <Card elevation={0}>
                   <CardContent>
                     <Typography variant="h5" component="div">
-                      Backend
+                      Back-End
                     </Typography>
                     <Typography sx={{ mb: 1.5 }} color="text.secondary">
                       <div>
